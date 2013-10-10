@@ -15,6 +15,7 @@ import '../utils.dart';
 part 'ng_a.dart';
 part 'ng_bind.dart';
 part 'ng_bind_html.dart';
+part 'ng_bind_template.dart';
 part 'ng_class.dart';
 part 'ng_events.dart';
 part 'ng_cloak.dart';
@@ -33,6 +34,7 @@ void registerDirectives(Module module) {
   module.type(NgADirective);
   module.type(NgBindDirective);
   module.type(NgBindHtmlDirective);
+  module.type(NgBindTemplateDirective);
   module.type(NgClassDirective);
   module.type(NgClassOddDirective);
   module.type(NgClassEvenDirective);
